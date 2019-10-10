@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTextStandart"
+        style="@style/AppTheme.TextView.Quicksand"
+        android:clickable="true"
+        android:focusable="true"
+        android:maxLines="3"
+        android:gravity="left|center"
+        android:padding="15dp"
+        android:textColor="@color/filterdialog_row_text"
+        />
+
+</RelativeLayout>
